@@ -1,4 +1,4 @@
-/*!---------------------------------------------------------------------
+addict/*!---------------------------------------------------------------------
  * Another Scavenging Script
  * author Nick Toby (cheesasaurus@gmail.com)
  * 
@@ -2732,12 +2732,13 @@
                 for (let optionId of optionIds) {
                     let assignedCounts;
                     if (usableOptionIds.includes(optionId)) {
-                        if(optionId==1){
+                        /*if(optionId==1){
                         targetCapacity=(prova[((avaibleCapacity%25)%50)+1][1]+prova[((avaibleCapacity%25)%50)+1][2]*avaibleCapacity%25)*25
                         }
                         else if(optionId==1){
                         targetCapacity=(prova[((avaibleCapacity%25)%50)+1][3]+prova[((avaibleCapacity%25)%50)+1][4]*avaibleCapacity%25)*25
-                        }
+                        }*/
+                        prova[((avaibleCapacity%25)%50)+1][0]*25
                         assignedCounts = this.chunkTroopsToHaul(targetCapacity, availableTroopCounts, haulFactor);
                     } else {
                         assignedCounts = new TroopCounts();
