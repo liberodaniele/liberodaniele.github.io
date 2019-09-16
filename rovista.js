@@ -2738,7 +2738,7 @@ addict/*!---------------------------------------------------------------------
                         targetCapacity=(prova[((avaibleCapacity%25)%50)+1][3]+prova[((avaibleCapacity%25)%50)+1][4]*avaibleCapacity%25)*25;
                         }
                         else{
-                            targetCapacity=
+                            targetCapacity=0;
                         }
                         //prova[((avaibleCapacity%25)%50)+1][0]*25
                         assignedCounts = this.chunkTroopsToHaul(targetCapacity, availableTroopCounts, haulFactor);
