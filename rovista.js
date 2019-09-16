@@ -2727,7 +2727,7 @@
                 let targetCapacitySum = 0;
 
 
-                let prova=[[0,1000,2000],[0,2000,1000]]
+                let prova=[[0,1000,2000],[0,1225,1000]]
                 for (let optionId of optionIds) {
                     let assignedCounts;
                     if (usableOptionIds.includes(optionId)) {
