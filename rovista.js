@@ -2727,12 +2727,12 @@
                 let targetCapacitySum = 0;
 
 
-        
+                let prova=[[0,1000,2000],[0,2000,1000]]
                 for (let optionId of optionIds) {
                     let assignedCounts;
                     if (usableOptionIds.includes(optionId)) {
 
-                        let targetCapacity = optionId*500
+                        let targetCapacity = prova[1][optionId]
                         assignedCounts = this.chunkTroopsToHaul(targetCapacity, availableTroopCounts, haulFactor);
                     } else {
                         assignedCounts = new TroopCounts();
