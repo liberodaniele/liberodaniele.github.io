@@ -2732,7 +2732,7 @@
                     let assignedCounts;
                     if (usableOptionIds.includes(optionId)) {
 
-                        let targetCapacity = 300
+                        let targetCapacity = optionId*500
                         assignedCounts = this.chunkTroopsToHaul(targetCapacity, availableTroopCounts, haulFactor);
                     } else {
                         assignedCounts = new TroopCounts();
